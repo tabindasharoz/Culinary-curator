@@ -6,3 +6,9 @@ A trusted source for culinary inspiration and discovery.
 Essentially, a Culinary Curator serves as your personal food concierge,helping you navigate the vast worls of recipes and ingredients to find the perfect dishes for your taste and preferences.
 and also you can buy the ingredients to make that dish.
 
+dependencies used here:-
+ "body-parser"
+    "express"
+    "mongoose"
+    "nodemon"
+
