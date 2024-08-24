@@ -1,0 +1,286 @@
+body{
+   background-image: url(https://cdn.dribbble.com/users/3951514/screenshots/7288432/media/866b49d81c982fdecd5a22de44c5e677.gif);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+.login{
+    width: 400px;
+    background-color: transparent;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin-left:550px ;
+    box-shadow: 0px 0px 10px 10px black  ;
+    margin-top: 50px;
+}
+.login h1{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid green;
+}
+.login form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.login form label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    background-color: transparent;
+    color: blue;
+
+}
+.login form input[type="password"],
+.login form input[type="text"]{
+    width: 310px;
+    height: 40px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.login form input[type="submit"]{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+
+
+.navbar{
+    background-color: black;
+
+    border-radius: 30px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+    height: 50px;
+   
+}
+
+.navbar ul{
+    overflow: auto;
+
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+    
+}
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar li a:hover{
+color: red ;
+}
+
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+
+}
+
+.box{
+    align-content: center;
+    
+    
+    width: 30px;
+    height: 100px;
+    border:1px solid black;
+    padding: 200px;
+    margin-top: 10px;
+    margin-left: 550px;
+    color: darkred;
+    background-color: rgba(240 240 240 .2);
+    box-shadow: 0px 0px 10px 10px black ;
+    box-sizing: border-box; 
+    background-filter: blur 15px ;
+    
+} 
+
+.headingg{
+    text-align: center;
+    margin-top:100px ;
+
+}
+.para1{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(5, 246, 77);
+    text-shadow: 5px 5px 5px rgba(236, 70, 70, 0.507);
+ 
+    margin-right: 30px;
+}
+
+
+/* .box .clearfix{
+    color: white;
+    background-color: rgb(53, 53, 250)
+
+} */
+
+/* .button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    margin-right:200px ;
+    cursor: pointer;
+    height: 1px;
+    margin-right: 30px;
+    
+}*/
+.button1{
+    background-color: blue;
+    /* padding: 10px -10px 10px ; */
+    height: 40px;
+    margin-top: 2px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    margin-right:30px ;
+    padding: 10px 100px 20px 100px;
+    
+    
+    
+    
+
+
+} 
+
+
+
+.box .form-grp{
+    color: black;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-top: 8px 0;
+   
+
+    
+    
+}
+
+.form-grp a{
+    margin: 10px 100px;
+}
+
+#inputpsw{ height: 40px;
+    margin-top: 2px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+  margin-top: -40px;
+    margin-right:30px ;
+    padding: 1px 80px 1px 0.01px;
+    text-align: center;
+    background-color: white;
+    ;
+
+}
+#inputemail{
+height: 40px;
+/* margin-top: 200px; */
+margin-top: -50px;
+cursor: pointer;
+text-align: center;
+color: black;
+margin-right:30px ;
+padding: 1px 80px 1px 0.01px;
+text-align: center;
+background-color: white;}
+
+.tabinda {
+    height: 40px;
+/* margin-top: 200px; */
+cursor: pointer;
+text-align: center;
+/* color:#fff; */
+margin-right:-10px ;
+padding: 1px 80px 100px 0.01px;
+
+text-align: center;
+background-color: transparent;
+
+
+}
+
+.tabinda a{
+    color: #fff;
+    text-decoration: none;
+}
+.tabinda a:hover{
+    text-decoration: underline;
+}
+
+.remember-forgot {
+
+ 
+cursor: pointer;
+display: flex;
+justify-content: space-evenly;
+font-size: 14px;
+margin: -35px -240px -3px -130px;
+
+
+color: #fff;
+
+background-color: transparent;}
+
+.remember-forgot label input{
+accent-color: #fff;
+margin-right: 3px;
+}
+
+/* .remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+} */
+
+

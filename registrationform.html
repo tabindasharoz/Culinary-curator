@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+
+<link rel="stylesheet" href="registration.css">
+<body style="color: black; background-color: rgb(238, 188, 96); ">
+
+
+    <header>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html" target="_self">home</a></li>
+            <li><a href="about.html" target="_new">about us</a></li>
+            <li><a href="services.html" target="_new">services</a></li>
+            <li> <a href="contact.html" target="_new">contact us</a> </li>
+            <li> <a href="registrationform.html" target="_new">Register here</a> </li>
+            <li> <a href="Recipee.html" target="_new">Recipee</a> </li>
+            <li> <a href="shop.html" target="_new">Shop</a> </li>
+    
+         
+        </ul>
+        </nav>
+      </header>
+
+
+    
+    <form action="action_page.php"  style="border: 1px solid #ccc; ">
+        <div class="container">
+            <h1>
+             Registration Form
+            </h1>
+            <p>please fill in the form to create an account</p>
+            <hr>
+            <fieldset><legend>personal information:
+            </legend>
+            
+        <label for="Fname"><b>first name</b></label>
+    <input type="text" placeholder="enter your first name" name="fname" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<label for="lname"><b>last name</b></label>
+<input type="text" placeholder="enter your last name" name="lname " required><br><br>
+
+<label for="dt" ><b>date of birth</b></label>
+<input type="date" placeholder="date of birth" name="bday">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<label for="tno"><b>mobile number</b></label>
+<input type="tel" placeholder="enter your M.no." name="phone" pattern="[0-9]{9}"required><br><br>
+
+<label for="gender"><b>gender</b></label>
+<input type="radio" name="gender " value="male" required>male
+<input type="radio" name="gender" value="female" required>female
+<input type="radio" name="gender" value="others" required>others</fieldset><br><br>
+
+<label for="email"><b>email</b></label>
+<input type="email" placeholder="enter your email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+
+<label for="psw"><b>password</b></label>
+<input type="password" placeholder="enter your password" name="psw"required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<label for="psw-repeat"><b>repeat password</b></label>
+<input type="password" placeholder="repeat your password" name="psw-repeat"><br><br>
+
+
+
+<label for="address"><b>address</b></label>
+<textarea name="message" rows="10" cols="88"></textarea><br><br><br><br>
+
+<label for="city"><b>city</b></label>
+<select name="city">
+    <option value="kalyan">kalyan</option>
+    <option value="thane">thane</option>
+    <option value="dadar">dadar</option>
+</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<label for="pin">pincode</label>
+<input type="text" name="pin" pattern="[0-9]{6}" maxlength="6">
+<input type="submit" value=" validate" ><br><br>
+
+
+
+<label for="age"><b>select age</b></label>
+<input type="number" name="quantity" min="1" max="18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<label for="search">search</label>
+<input type="search" name="googlesearch"><br><br>
+
+<strong>upload file</strong>
+<input type="file" name="file"/>
+
+<p>by creating account you agree to our <a href="#" style="color: blue;">terms & privacy</a></p>
+
+<div class="clearfix">
+    <button type="button" class="cancelbtn">cancel</button>
+    <button type="submit" class="signupbtn">signup</button>
+    <input type="button" name="reset" value="reset">
+</div>
+
+</div>
+        
+    </form>
+
+    <script>
+       confirm("press ok to make a new account");
+        
+    </script>
+</body>
+</html>
